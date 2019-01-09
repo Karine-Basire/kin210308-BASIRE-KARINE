@@ -1,0 +1,91 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	/*j'enlève toutes les marge et les padding d'origine*/
+}
+
+html
+{
+	font-family: Arvo, serif;
+	height: 100%;
+	background-color: #DDBBF5;
+}
+
+
+h1
+{
+	top: 30px;
+	margin:20px;
+	height: 50px;
+	text-align: center; 
+	background: #D19FF5;
+	color: #9117E8;
+}
+
+
+
+
+#corps{
+	background-image:url("corphumain.png");
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 500px;
+	float;left;
+	box-sizing: border-box;
+	margin-left: 600px;
+	margin-top: 100px;
+}
+
+#textecercle{
+	width: 200px;
+	height: 500px;
+	margin-left: 150px;
+	box-sizing: border-box;
+	margin-left: 900px;
+	margin-top: -500px; 
+}
+
+.texte{
+	display: none;
+	padding-top: 20px;
+	color: #9117E8;
+}
+
+.active{
+	background-color: #F59A88;
+}
+
+.cercle{
+	background-color: #464248;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 600px;
+}
+
+#epaule{
+	top: 32%;
+	left: 1%;
+}
+#coude{
+	top: 43%;
+	left: 12%;
+}
+#poignet{
+	top: 50%;
+	left: -1%;
+}
+#hanche{
+	top: 50%;
+	left: 10%;
+}
+#genoux{
+	top: 67%;
+	left: 3%;
+}
+#cheville{
+	top: 77%;
+	left: 8%;
+}
